@@ -101,8 +101,8 @@ def list_collisions(values,deflate_digits=0,require_coprime=True):
 # tuning
 num_decimals = 5
 pairs = get_data(decimals=num_decimals)
-possible_coefficients = range(1,3)
-num_nonzero_coefficients = 2
+possible_coefficients = range(1,5)
+num_nonzero_coefficients = 3
 require = True
 output_path="../data/integer_multiples_output"
 
